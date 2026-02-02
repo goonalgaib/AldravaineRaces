@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "aldraces",
+    "name": "AldravaineRaces",
+    "authors": [
+        "goonalgaib"
+    ],
+    "description": "A racial class mod tailored for the tales of aldravaine community server.",
+    "version": "1.0.6",
+	 "dependencies": {
+    "playermodellib": "*"
+  }
+}

@@ -1,0 +1,614 @@
+[
+    {
+        "op": "add",
+        "path": "/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/potion/herbball.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/archerbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/archerbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/4/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/5/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/6/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/7/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/8/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/9/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/10/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/basicbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/cuttings.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/glowbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/glowbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/healingeffectbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/healingeffectbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/hungerenhancebase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/hungerenhancebase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/hungersupressbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/hungersupressbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/hunterbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/hunterbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/looterbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/looterbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/looterbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/looterbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/meleebase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/meleebase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/miningbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/miningbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/nutritionbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/poisonbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/poisonbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/predatorbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/predatorbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/predatorbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/predatorbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/recallbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/regenbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/regenbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/scentmaskbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/scentmaskbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/speedbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/speedbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/temporalbase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/vitalitybase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/vitalitybase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/requiresTrait",
+        "value": "alchemist",
+        "file": "alchemy:recipes/grid/ingredient/waterbreathebase.json",
+        "dependsOn": [
+            {
+                "modid": "alchemy"
+            }
+        ],
+        "side": "Server"
+    }
+]

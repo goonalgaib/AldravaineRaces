@@ -1,0 +1,42 @@
+[
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/2/traits/-",
+    	"dependsOn": [{"modid": "smithingplus"}],
+		"value": [
+			"sp:smith"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/7/traits/-",
+    	"dependsOn": [{"modid": "smithingplus"}],
+		"value": [
+			"sp:smith"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/11/traits/-",
+    	"dependsOn": [{"modid": "smithingplus"}],
+		"value": [
+			"sp:smith"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/16/traits/-",
+    	"dependsOn": [{"modid": "smithingplus"}],
+		"value": [
+			"sp:smith"
+		]
+	}
+]

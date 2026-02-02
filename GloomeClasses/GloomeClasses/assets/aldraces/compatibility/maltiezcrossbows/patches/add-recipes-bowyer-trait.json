@@ -1,0 +1,122 @@
+[
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }, 
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }, 
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }, 
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }, 
+    {
+        "op": "add",
+        "path": "/4/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }, 
+    {
+        "op": "add",
+        "path": "/5/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }, 
+    {
+        "op": "add",
+        "path": "/6/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }, 
+    {
+        "op": "add",
+        "path": "/7/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/crossbow.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/spanningtool.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "bowyer",
+        "file": "maltiezcrossbows:recipes/grid/spanningtool.json",
+        "dependsOn": [
+            {
+                "modid": "maltiezcrossbows"
+            }
+        ],
+        "side": "Server"
+    }
+]

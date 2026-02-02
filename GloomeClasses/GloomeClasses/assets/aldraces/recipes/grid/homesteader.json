@@ -1,0 +1,134 @@
+[
+	{
+		"ingredientPattern": "SWB,X__",
+		"requiresTrait": "pioneer",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:soil-medium-none",
+				"quantity": 1
+			},
+			"W": {
+				"type": "item",
+				"code": "game:compost"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal"
+			},
+			"X": {
+				"type": "item",
+				"code": "game:potash"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:soil-compost-none",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SWB,X__",
+		"requiresTrait": "pioneer",
+		"ingredients": {
+			"S": {
+				"type": "block",
+				"code": "game:soil-compost-none",
+				"quantity": 1
+			},
+			"W": {
+				"type": "item",
+				"code": "game:compost"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal"
+			},
+			"X": {
+				"type": "item",
+				"code": "game:saltpeter"
+			}
+		},
+		"width": 3,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "block",
+			"code": "game:soil-high-none",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "BGB,GCG,SGS",
+		"requiresTrait": "pioneer",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:compost",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal"
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:saltpeter"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "basicbooster",
+			"quantity": 4
+		}
+	},
+	{
+		"ingredientPattern": "SGP,GCG,BGX",
+		"requiresTrait": "pioneer",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:compost",
+				"quantity": 2
+			},
+			"B": {
+				"type": "item",
+				"code": "game:bonemeal"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:ore-phosphorite"
+			},
+			"G": {
+				"type": "item",
+				"code": "game:drygrass"
+			},
+			"X": {
+				"type": "item",
+				"code": "game:powder-sulfur"
+			},
+			"S": {
+				"type": "item",
+				"code": "game:potash"
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "qualitybooster",
+			"quantity": 4
+		}
+	}
+]

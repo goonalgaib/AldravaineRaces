@@ -1,0 +1,104 @@
+[
+	{
+		"ingredientPattern": "SHS,NBN,PLC",
+		"requiresTrait": "packmule",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:linen-*",
+				"quantity": 2
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-iron"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 4
+			},
+			"C": {
+				"type": "item",
+				"code": "game:sewingkit"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:backpack-normal"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:lantern-up",
+				"attributes": {
+					"material": "brass",
+					"lining": "plain",
+					"glass": "quartz"
+				},
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "basicleatherbackpack-lantern",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "SHS,NBN,PLC",
+		"requiresTrait": "packmule",
+		"ingredients": {
+			"S": {
+				"type": "item",
+				"code": "game:stick",
+				"quantity": 2
+			},
+			"H": {
+				"type": "block",
+				"code": "game:linen-*",
+				"quantity": 2
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-steel"
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-sturdy-plain",
+				"quantity": 4
+			},
+			"C": {
+				"type": "item",
+				"code": "game:sewingkit"
+			},
+			"B": {
+				"type": "item",
+				"code": "game:backpack-sturdy"
+			},
+			"P": {
+				"type": "block",
+				"code": "game:lantern-up",
+				"attributes": {
+					"material": "brass",
+					"lining": "plain",
+					"glass": "quartz"
+				},
+				"quantity": 1
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": false,
+		"output": {
+			"type": "item",
+			"code": "basicsturdybackpack-lantern",
+			"quantity": 1
+		}
+	}
+]

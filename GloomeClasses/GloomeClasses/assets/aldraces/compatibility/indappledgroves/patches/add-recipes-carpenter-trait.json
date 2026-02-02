@@ -1,0 +1,554 @@
+[
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/4/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/5/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/4/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/5/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/4/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/5/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/logsplitter.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/4/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/5/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/6/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/7/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/8/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/9/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/10/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/11/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/12/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/13/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/14/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/15/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/16/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/17/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/18/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/19/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/20/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/22/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/23/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/24/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/25/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/26/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/27/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/28/requiresTrait",
+        "value": "carpenter",
+        "file": "indappledgroves:recipes/grid/sawbuck.json",
+        "dependsOn": [
+            {
+                "modid": "indappledgroves"
+            }
+        ],
+        "side": "Server"
+    }
+]

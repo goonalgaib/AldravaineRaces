@@ -1,0 +1,121 @@
+{
+	"code": "washerygradecoke",
+
+	"shape": { "base": "game:item/ore/ungraded/lignite" },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"aldraces":  ["*"]
+	},
+	"class": "ItemCoal",
+	"maxstacksize": 64,
+	"attributes": {
+		"displayInsideCrate": true,
+		"placeSound": "game:block/charcoal",
+		"pigment": {
+			"name": "Carbon black",
+			"color": {
+				"red": 25,
+				"green": 24,
+				"blue": 22
+			}
+		},
+		"displaycaseable": true,
+		"shelvable": true
+	},
+	"behaviors": [
+		{
+			"name": "ArtPigment",
+			"properties": {
+				"decorBlockCodes": [ "game:caveart-charcoal-1-*" ],
+				"paintableOnBlockMaterials": [ "Stone", "Wood", "Brick", "Ceramic", "Metal", "Meta" ],
+				"consumeChance": 0.066
+			}
+		}
+	],
+	"materialDensity": 300,
+	"combustibleProps": {
+		"burnTemperature": 1340,
+		"burnDuration": 77
+	},
+
+
+
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 1,
+			"y": 90,
+			"z": 0
+		},
+		"scale": 1.67
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 3,
+			"y": 2,
+			"z": 0
+		},
+		"rotation": {
+			"x": 150,
+			"y": -38,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.1,
+			"z": 0.5
+		},
+		"scale": 3.8
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.93,
+			"y": -0.19,
+			"z": -0.77
+		},
+		"rotation": {
+			"x": -48,
+			"y": -180,
+			"z": 23
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.12,
+			"z": 0.5
+		},
+		"scale": 0.6
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.5
+	},
+	"crushingPropsByType": {
+		"*": {
+			"crushedStack": {
+				"type": "item",
+				"code": "aldraces:crushedwasherygradecoke",
+				"stacksize": 2
+			},
+			"hardnessTier": 3
+		}
+	}
+}

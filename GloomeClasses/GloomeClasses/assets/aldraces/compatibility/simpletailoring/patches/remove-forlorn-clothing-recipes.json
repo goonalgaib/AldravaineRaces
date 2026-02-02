@@ -1,0 +1,68 @@
+[
+    {
+        "op": "remove",
+        "path": "/7",
+        "file": "simpletailoring:recipes/grid/additional-hand.json",
+        "dependsOn": [
+            {
+                "modid": "simpletailoring"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/11",
+        "file": "simpletailoring:recipes/grid/additional-foot.json",
+        "dependsOn": [
+            {
+                "modid": "simpletailoring"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/10",
+        "file": "simpletailoring:recipes/grid/additional-lowerbody.json",
+        "dependsOn": [
+            {
+                "modid": "simpletailoring"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/7",
+        "file": "simpletailoring:recipes/grid/additional-shoulder.json",
+        "dependsOn": [
+            {
+                "modid": "simpletailoring"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/8",
+        "file": "simpletailoring:recipes/grid/additional-upperbody.json",
+        "dependsOn": [
+            {
+                "modid": "simpletailoring"
+            }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/6",
+        "file": "simpletailoring:recipes/grid/additional-waist.json",
+        "dependsOn": [
+            {
+                "modid": "simpletailoring"
+            }
+        ],
+        "side": "Server"
+    }
+]

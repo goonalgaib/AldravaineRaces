@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/0/requiresTrait",
+    "value": "steelmaker",
+    "file": "game:recipes/grid/door-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/requiresTrait",
+    "value": "steelmaker",
+    "file": "game:recipes/grid/door-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/requiresTrait",
+    "value": "steelmaker",
+    "file": "game:recipes/grid/door-metal.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/requiresTrait",
+    "value": "steelmaker",
+    "file": "game:recipes/grid/rawrefractorybrick.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/2/requiresTrait",
+    "value": "steelmaker",
+    "file": "game:recipes/grid/rawrefractorybrick.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "file": "playermodellib:config/default-model-config.json",
+    "op": "replace",
+    "path": "/seraph/Enabled",
+    "value": false
+  }
+]

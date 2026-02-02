@@ -1,0 +1,71 @@
+[
+
+	{
+		"ingredientPattern": "HC_,G__,___",
+		"requiresTrait": "zealot",
+		"ingredients": {
+			"G": {
+				"type": "item",
+				"code": "game:gear-temporal",
+				"quantity": 2
+			},
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "aldraces:primamateria",
+			"quantity": 9
+		}
+	},
+	{
+		"ingredientPattern": "CPW",
+		"requiresTrait": "zealot",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:cloth-purple",
+				"quantity": 1
+			},
+			"P": {
+				"type": "item",
+				"code": "aldraces:primamateria",
+				"quantity": 16
+			},
+			"W": {
+				"type": "block",
+				"code": "game:woodbucket"
+			}
+		},
+		"width": 3,
+		"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": {
+					"type": "item",
+					"code": "dye-woad"
+				},
+				"requiresLitres": 1
+			}
+		},
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "aldraces:cloth-forlorn",
+			"quantity": 1
+		}
+	}
+]

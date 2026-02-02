@@ -1,0 +1,122 @@
+{
+	"code": "thinalignedplanks",
+	"behaviors": [
+		{ "name": "Pillar" },
+		{
+			"name": "WrenchOrientable",
+			"properties": { "baseCode": "planks-{wood}" }
+		}
+	],
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [ "aged", "agedebony", "rottenebony" ],
+			"loadFromProperties": "block/wood"
+		},
+		{
+			"code": "orientation",
+			"states": [ "ns", "we", "ud" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-ud" ],
+		"construction": [ "*-ud" ]
+	},
+	"shape": { "base": "game:block/basic/cube" },
+	"blockmaterial": "Wood",
+	"drawtype": "cube",
+	"texturesByType": {
+		"*-aged-ud": {
+			"all": {
+				"base": "aldraces:block/wood/planks/aged/thinaligned-generic",
+				"rotation": 90
+			}
+		},
+		"*-aged-we": {
+			"all": {
+				"base": "aldraces:block/wood/planks/aged/thinaligned-generic",
+				"rotation": 0
+			}
+		},
+		"*-aged-ns": {
+			"all": { "base": "aldraces:block/wood/planks/aged/thinaligned-generic" },
+			"verticals": {
+				"base": "aldraces:block/wood/planks/aged/thinaligned-generic",
+				"rotation": 90
+			}
+		},
+		"*-agedebony-ud": {
+			"all": {
+				"base": "aldraces:block/wood/planks/aged/thinaligned-ebony",
+				"rotation": 90
+			}
+		},
+		"*-agedebony-we": {
+			"all": {
+				"base": "aldraces:block/wood/planks/aged/thinaligned-ebony",
+				"rotation": 0
+			}
+		},
+		"*-agedebony-ns": {
+			"all": { "base": "aldraces:block/wood/planks/aged/thinaligned-ebony" },
+			"verticals": {
+				"base": "aldraces:block/wood/planks/aged/thinaligned-ebony",
+				"rotation": 90
+			}
+		},
+		"*-ud": {
+			"all": {
+				"base": "aldraces:block/wood/planks/thinaligned-{wood}",
+				"rotation": 90
+			}
+		},
+		"*-we": {
+			"all": {
+				"base": "aldraces:block/wood/planks/thinaligned-{wood}",
+				"rotation": 0
+			}
+		},
+		"*-ns": {
+			"all": { "base": "aldraces:block/wood/planks/thinaligned-{wood}" },
+			"verticals": {
+				"base": "aldraces:block/wood/planks/thinaligned-{wood}",
+				"rotation": 90
+			}
+		}
+	},
+	"resistance": 3.5,
+	"sounds": {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 20
+	},
+	"maxStackSize": 32,
+	"materialDensity": 600,
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldRightReadyAnimation": "heldblockready",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.23,
+			"y": -0.91,
+			"z": -0.8
+		},
+		"rotation": {
+			"x": -2,
+			"y": 25,
+			"z": -78
+		},
+		"scale": 0.4
+	},
+	"drops": [
+		{
+			"type": "block",
+			"code": "aldraces:thinalignedplanks-{wood}-ud"
+		}
+	]
+}

@@ -1,0 +1,286 @@
+[
+	{
+		"enabled": true,
+		"file": "aldraces:config/traits.json",
+		"op": "replace",
+		"path": "/0/attributes",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": {
+			"bowsProficiency": 1,
+			"steadyAim": 0.5
+		}
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/traits.json",
+		"op": "replace",
+		"path": "/1/attributes",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": {
+			"steadyAim": -0.3
+		}
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/traits.json",
+		"op": "replace",
+		"path": "/2/attributes",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": {
+			"armorManipulationSpeedAffectedness": -0.5,
+			"armorWalkSpeedAffectedness": -0.5
+		}
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/traits.json",
+		"op": "replace",
+		"path": "/3/attributes",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": {
+			"armorManipulationSpeedAffectedness": 0.25,
+			"armorWalkSpeedAffectedness": 0.25
+		}
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/0/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"spearsProficiency",
+			"quarterstaffProficiency",
+			"crossbowsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/1/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"macesProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/2/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"firearmsProficiency",
+			"oneHandedSwordsProficiency",
+			"halberdsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/3/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"crossbowsProficiency",
+			"axesProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/4/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"oneHandedSwordsProficiency",
+			"twoHandedSwordsProficiency",
+			"macesProficiency",
+			"canParryProjectiles",
+			"legDay"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/5/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"oneHandedSwordsProficiency",
+			"quarterstaffProficiency",
+			"macesProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/6/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"spearsProficiency",
+			"oneHandedSwordsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/7/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"oneHandedSwordsProficiency",
+			"twoHandedSwordsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/8/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"spearsProficiency",
+			"axesProficiency",
+			"oneHandedSwordsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/9/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"quarterstaffProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/10/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"crossbowsProficiency",
+			"spearsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/11/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"halberdsProficiency",
+			"macesProficiency",
+			"axesProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/12/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"halberdsProficiency",
+			"axesProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/13/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"firearmsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/14/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"macesProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/15/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"javelinsProficiency",
+			"clubsProficiency",
+			"spearsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/16/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"macesProficiency",
+			"clubsProficiency",
+			"halberdsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/17/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"twoHandedSwordsProficiency",
+			"halberdsProficiency",
+			"axesProficiency",
+			"canParryProjectiles",
+			"thickSkull"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/18/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"firearmsProficiency",
+			"spearsProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/19/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"javelinsProficiency",
+			"quarterstaffProficiency"
+		]
+	},
+	{
+		"enabled": true,
+		"file": "aldraces:config/characterclasses/aldracesclasses.json",
+		"op": "addeach",
+		"path": "/20/traits/-",
+    	"dependsOn": [{"modid": "combatoverhaul"}],
+		"value": [
+			"firearmsProficiency",
+			"clubsProficiency",
+			"axesProficiency"
+		]
+	}
+]

@@ -1,0 +1,372 @@
+{
+	"elf": {
+		"ShapePath": "aldraces:entity/humanoid/elf-faceless",
+		"MainTextureCode": "seraph",
+		"SizeRange": [ 0.9, 1.1 ],
+		"CollisionBox": [ 0.62, 1.9 ],
+    	"ScaleColliderWithSizeHorizontally": true,
+    	"ScaleColliderWithSizeVertically": true,
+		"EyeHeight": 1.75,
+		"ModelSizeFactor": 1.02,
+		"AvailableClasses": [ "elf-artisan", "elf-smith", "elf-orchardkeeper", "elf-wardenofthewoods", "elf-alchemist" ],
+    	"SkipClasses": [],
+    	"ExclusiveClasses": [],
+    	"ExtraTraits": ["elf"],
+		"GuiModelScale": 1.02,
+		"HeadBobbingScale": 1,
+		"SkinnableParts": [
+			{
+				"code": "baseskin",
+				"type": "texture",
+				"textureTarget": "seraph",
+				"overlayTexture": true,
+				"overlayMode": "Normal",
+				"targetSkinParts": [ "base", "ears" ],
+				"variants": [
+					{
+						"code": "skin1",
+						"texture": "aldraces:entity/humanoid/skinparts/elf/skin1"
+					},
+					{
+						"code": "skin2",
+						"texture": "aldraces:entity/humanoid/skinparts/elf/skin2"
+					},
+					{
+						"code": "skin3",
+						"texture": "aldraces:entity/humanoid/skinparts/elf/skin3"
+					},
+					{
+						"code": "skin4",
+						"texture": "aldraces:entity/humanoid/skinparts/elf/skin4"
+					},
+					{
+						"code": "skin5",
+						"texture": "aldraces:entity/humanoid/skinparts/elf/skin5"
+					},
+					{
+						"code": "skin6",
+						"texture": "aldraces:entity/humanoid/skinparts/elf/skin6"
+					},
+					{
+						"code": "skin7",
+						"texture": "aldraces:entity/humanoid/skinparts/elf/skin7"
+					}
+
+				]
+			},
+			{
+				"code": "eyecolor",
+				"type": "texture",
+				"textureTarget": "playermodellib-iris",
+				"targetSkinParts": [ "facialexpression" ],
+				"variants": [
+					{
+						"code": "acid-green",
+						"texture": "playermodellib:eyes/acid-green"
+					},
+					{
+						"code": "aquamarine",
+						"texture": "playermodellib:eyes/aquamarine"
+					},
+					{
+						"code": "azure",
+						"texture": "playermodellib:eyes/azure"
+					},
+					{
+						"code": "bitter-lemon",
+						"texture": "playermodellib:eyes/bitter-lemon"
+					},
+					{
+						"code": "cadmium-orange",
+						"texture": "playermodellib:eyes/cadmium-orange"
+					},
+					{
+						"code": "citron",
+						"texture": "playermodellib:eyes/citron"
+					},
+					{
+						"code": "dark-green",
+						"texture": "playermodellib:eyes/dark-green"
+					},
+					{
+						"code": "forest-green",
+						"texture": "playermodellib:eyes/forest-green"
+					},
+					{
+						"code": "goldenrod",
+						"texture": "playermodellib:eyes/goldenrod"
+					},
+					{
+						"code": "jade",
+						"texture": "playermodellib:eyes/jade"
+					},
+					{
+						"code": "lavander",
+						"texture": "playermodellib:eyes/lavander"
+					},
+					{
+						"code": "malachite",
+						"texture": "playermodellib:eyes/malachite"
+					},
+					{
+						"code": "mantis",
+						"texture": "playermodellib:eyes/mantis"
+					},
+					{
+						"code": "midnight",
+						"texture": "playermodellib:eyes/midnight"
+					},
+					{
+						"code": "phthalo-blue",
+						"texture": "playermodellib:eyes/phthalo-blue"
+					},
+					{
+						"code": "purple",
+						"texture": "playermodellib:eyes/purple"
+					},
+					{
+						"code": "sand",
+						"texture": "playermodellib:eyes/sand"
+					},
+					{
+						"code": "sapphire",
+						"texture": "playermodellib:eyes/sapphire"
+					}
+				]
+			},
+			{
+				"code": "underwear",
+				"type": "texture",
+				"textureTarget": "seraph",
+				"overlayTexture": true,
+				"useDropDown": true,
+				"overlayMode": "Normal",
+				"targetSkinParts": [ "base" ],
+				"variants": [
+					{
+						"code": "twopiece",
+						"texture": "aldraces:entity/humanoid/underwear/twopiece"
+					},
+					{
+						"code": "leotard",
+						"texture": "aldraces:entity/humanoid/underwear/leotard"
+					},
+					{
+						"code": "breeches",
+						"texture": "aldraces:entity/humanoid/underwear/breeches"
+					}
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice",
+				"useDropDown": true,
+				"variants": [
+					{
+						"code": "altoflute",
+						"sound": "sounds/voice/altoflute"
+					},
+					{
+						"code": "harmonica",
+						"sound": "sounds/voice/harmonica"
+					},
+					{
+						"code": "oboe",
+						"sound": "sounds/voice/oboe"
+					},
+					{
+						"code": "clarinet",
+						"sound": "sounds/voice/clarinet"
+					},
+					{
+						"code": "accordion",
+						"sound": "sounds/voice/accordion"
+					},
+					{
+						"code": "trumpet",
+						"sound": "sounds/voice/trumpet"
+					},
+					{
+						"code": "sax",
+						"sound": "sounds/voice/sax"
+					},
+					{
+						"code": "tuba",
+						"sound": "sounds/voice/tuba"
+					}
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice",
+				"colbreak": true,
+				"useDropDown": true,
+				"variants": [
+					{ "code": "verylow" },
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "ears",
+				"type": "shape",
+				"variants": [
+					{
+						"code": "massiveears",
+						"shape": { "base": "aldraces:entity/humanoid/ears/elf_earsmassive" }
+					},
+					{
+						"code": "elangetears",
+						"shape": { "base": "aldraces:entity/humanoid/ears/elf_earselanget" }
+					},
+					{
+						"code": "sharp",
+						"shape": { "base": "aldraces:entity/humanoid/ears/elf_earssharp" }
+					}
+				]
+			},
+			{
+				"code": "hairbase",
+				"type": "shape",
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-base/{code}" },
+				"variants": [
+					{ "code": "afro" },
+					{ "code": "bald" },
+					{ "code": "balding" },
+					{ "code": "bowlcut" },
+					{ "code": "boxbraids" },
+					{ "code": "combed" },
+					{ "code": "dreadlocks" },
+					{ "code": "dreadlocksdense" },
+					{ "code": "indigenousbalding" },
+					{ "code": "iroquois" },
+					{ "code": "kniaz" },
+					{ "code": "layered" },
+					{ "code": "longflowing" },
+					{ "code": "longcurls" },
+					{ "code": "longwithstrands" },
+					{ "code": "mediumcurls" },
+					{ "code": "mediumlength-bangs" },
+					{ "code": "messy" },
+					{ "code": "messy2" },
+					{ "code": "classic" },
+					{ "code": "rows" },
+					{ "code": "rowsdense" },
+					{ "code": "short" },
+					{ "code": "shortcurls" },
+					{ "code": "shortcurls2" },
+					{ "code": "short-parted" },
+					{ "code": "shortspiky" },
+					{ "code": "short-trimmed" },
+					{ "code": "tonsure" }
+				]
+			},
+			{
+				"code": "hairextra",
+				"type": "shape",
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/{code}" },
+				"variants": [
+					{ "code": "none" },
+					{ "code": "backbun" },
+					{ "code": "backbuncurls" },
+					{ "code": "backbunpuffy" },
+					{ "code": "bunboxbraid" },
+					{ "code": "braidedup" },
+					{ "code": "classicponytail" },
+					{ "code": "cobrasidebraids" },
+					{ "code": "elaboratestickbun" },
+					{ "code": "headsidebraid" },
+					{ "code": "largestickbun" },
+					{ "code": "knots" },
+					{ "code": "neatbraid" },
+					{ "code": "ponytail" },
+					{ "code": "ponytailcurly" },
+					{ "code": "ponytailcrest" },
+					{ "code": "rolledbraidwithbun" },
+					{ "code": "shortmessybraid" },
+					{ "code": "segmentedtopknot" },
+					{ "code": "sidebraids" },
+					{ "code": "sidebuns" },
+					{ "code": "sidebunscurly" },
+					{ "code": "sidepuffs" },
+					{ "code": "siderolls" },
+					{ "code": "skepbun" },
+					{ "code": "snood" },
+					{ "code": "toproll" },
+					{ "code": "backroll" },
+					{ "code": "backrollbun" },
+					{ "code": "thickroll" },
+					{ "code": "fishtailbraid" },
+					{ "code": "steppesidetails" },
+					{ "code": "steppebraidloop" },
+					{ "code": "steppebraids" },
+					{ "code": "thicklongfrenchbraid" },
+					{ "code": "tiedback" },
+					{ "code": "tieddreads" },
+					{ "code": "tiedtopknot" },
+					{ "code": "topbun" },
+					{ "code": "topbuncurly" },
+					{ "code": "topbunvoluminous" },
+					{ "code": "topknot" },
+					{ "code": "unkempt" },
+					{ "code": "vikingtopbraid" }
+				]
+			},
+			{
+				"code": "facialexpression",
+				"type": "shape",
+				"variants": [
+					{
+						"code": "neutral",
+						"shape": { "base": "aldraces:entity/humanoid/fase/elf/elf_neutral" }
+					},
+					{
+						"code": "serious",
+						"shape": { "base": "aldraces:entity/humanoid/fase/elf/elf_serious" }
+					},
+					{
+						"code": "grin",
+						"shape": { "base": "aldraces:entity/humanoid/fase/elf/elf_grin" }
+					},
+					{
+						"code": "tired",
+						"shape": { "base": "aldraces:entity/humanoid/fase/elf/elf_tired" }
+					},
+					{
+						"code": "very-sad",
+						"shape": { "base": "aldraces:entity/humanoid/fase/elf/elf_very-sad" }
+					}
+				]
+			},
+			{
+				"code": "haircolor",
+				"type": "texture",
+				"textureTarget": "hair",
+				"targetSkinParts": [ "hairextra", "hairbase" ],
+				"textureTemplate": "game:entity/humanoid/seraphskinparts/hair/{code}",
+				"variants": [
+					{ "code": "lightgray" },
+					{ "code": "silverchalice" },
+					{ "code": "mossgreen" },
+					{ "code": "seagreen" },
+					{ "code": "wintergreendream" },
+					{ "code": "steelblue" },
+					{ "code": "queenblue" },
+					{ "code": "indigodye" },
+					{ "code": "heliotropegray" },
+					{ "code": "palatinatepurple" },
+					{ "code": "darkpurple" },
+					{ "code": "wheat" },
+					{ "code": "ecru" },
+					{ "code": "sanddune" },
+					{ "code": "harvestgold" },
+					{ "code": "cordovan" },
+					{ "code": "rosewood" },
+					{ "code": "russet" },
+					{ "code": "liver" }
+				]
+			}
+		]
+	}
+}

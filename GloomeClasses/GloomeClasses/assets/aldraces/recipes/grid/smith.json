@@ -1,0 +1,103 @@
+[
+	{
+		"ingredientPattern": "H,G",
+		"requiresTrait": "recycler",
+		"ingredients": {
+			"G": {
+				"type": "item",
+				"code": "game:gear-rusty"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:crushed-iron",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "H,G",
+		"requiresTrait": "recycler",
+		"ingredients": {
+			"G": {
+				"type": "block",
+				"code": "game:metal-scraps"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:crushed-iron",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "H,G",
+		"requiresTrait": "recycler",
+		"ingredients": {
+			"G": {
+				"type": "block",
+				"code": "game:metal-parts"
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			}
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "game:metalbit-cupronickel",
+			"quantity": 5
+		}
+	},
+	{
+		"ingredientPattern": "CK,CR",
+		"requiresTrait": "coalfiend",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:coke",
+				"quantity": 4
+			},
+			"K": {
+				"type": "item",
+				"code": "game:powder-charcoal",
+				"quantity": 8
+			},
+			"R": {
+				"type": "item",
+				"code": "game:resin",
+				"quantity": 2
+			}
+		},
+		"width": 2,
+		"height": 2,
+		"shapeless": true,
+		"output": {
+			"type": "item",
+			"code": "aldraces:washerygradecoke",
+			"quantity": 16
+		}
+	}
+]

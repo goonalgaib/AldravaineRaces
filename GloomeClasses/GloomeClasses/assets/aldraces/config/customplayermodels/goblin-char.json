@@ -1,0 +1,270 @@
+{
+	"goblin": {
+		"ShapePath": "aldraces:entity/humanoid/seraph-faceless",
+		"MainTextureCode": "seraph",
+		"SizeRange": [ 0.9, 1 ],
+		"CollisionBox": [ 0.6, 1.85 ],
+    	"ScaleColliderWithSizeHorizontally": true,
+    	"ScaleColliderWithSizeVertically": true,
+		"EyeHeight": 1.7,
+		"ModelSizeFactor": 0.77,
+		"AvailableClasses": [ "goblin-scavenger", "goblin-clockmaker", "goblin-alchemist" ],
+    	"SkipClasses": [],
+    	"ExclusiveClasses": [],
+    	"ExtraTraits": ["goblin", "nimble"],
+		"GuiModelScale": 0.77,
+		"HeadBobbingScale": 0.9,
+		"SkinnableParts": [
+			{
+				"code": "baseskin",
+				"type": "texture",
+				"textureTarget": "seraph",
+				"overlayTexture": true,
+				"overlayMode": "Normal",
+				"targetSkinParts": [ "base", "ears" ],
+				"variants": [
+					{
+						"code": "skin1",
+						"texture": "aldraces:entity/humanoid/skinparts/ork/skin1"
+					},
+					{
+						"code": "skin2",
+						"texture": "aldraces:entity/humanoid/skinparts/ork/skin2"
+					},
+					{
+						"code": "skin3",
+						"texture": "aldraces:entity/humanoid/skinparts/ork/skin3"
+					},
+					{
+						"code": "skin4",
+						"texture": "aldraces:entity/humanoid/skinparts/ork/skin4"
+					},
+					{
+						"code": "skin5",
+						"texture": "aldraces:entity/humanoid/skinparts/ork/skin5"
+					},
+					{
+						"code": "skin6",
+						"texture": "aldraces:entity/humanoid/skinparts/ork/skin6"
+					},
+					{
+						"code": "skin7",
+						"texture": "aldraces:entity/humanoid/skinparts/ork/skin7"
+					}
+				]
+			},
+			{
+				"code": "eyecolor",
+				"type": "texture",
+				"textureTarget": "playermodellib-iris",
+				"targetSkinParts": [ "facialexpression" ],
+				"variants": [
+					{
+						"code": "acid-green",
+						"texture": "playermodellib:eyes/acid-green"
+					},
+					{
+						"code": "bitter-lemon",
+						"texture": "playermodellib:eyes/bitter-lemon"
+					},
+					{
+						"code": "cadmium-orange",
+						"texture": "playermodellib:eyes/cadmium-orange"
+					},
+					{
+						"code": "citron",
+						"texture": "playermodellib:eyes/citron"
+					},
+					{
+						"code": "dark-green",
+						"texture": "playermodellib:eyes/dark-green"
+					},
+					{
+						"code": "forest-green",
+						"texture": "playermodellib:eyes/forest-green"
+					},
+					{
+						"code": "goldenrod",
+						"texture": "playermodellib:eyes/goldenrod"
+					},
+					{
+						"code": "malachite",
+						"texture": "playermodellib:eyes/malachite"
+					},
+					{
+						"code": "mantis",
+						"texture": "playermodellib:eyes/mantis"
+					},
+					{
+						"code": "sand",
+						"texture": "playermodellib:eyes/sand"
+					}
+				]
+			},
+			{
+				"code": "underwear",
+				"type": "texture",
+				"textureTarget": "seraph",
+				"overlayTexture": true,
+				"useDropDown": true,
+				"overlayMode": "Normal",
+				"targetSkinParts": [ "base" ],
+				"variants": [
+					{
+						"code": "twopiece",
+						"texture": "aldraces:entity/humanoid/underwear/twopiece"
+					},
+					{
+						"code": "leotard",
+						"texture": "aldraces:entity/humanoid/underwear/leotard"
+					},
+					{
+						"code": "breeches",
+						"texture": "aldraces:entity/humanoid/underwear/breeches"
+					}
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice",
+				"useDropDown": true,
+				"variants": [
+					{
+						"code": "altoflute",
+						"sound": "sounds/voice/altoflute"
+					},
+					{
+						"code": "harmonica",
+						"sound": "sounds/voice/harmonica"
+					},
+					{
+						"code": "oboe",
+						"sound": "sounds/voice/oboe"
+					},
+					{
+						"code": "clarinet",
+						"sound": "sounds/voice/clarinet"
+					},
+					{
+						"code": "accordion",
+						"sound": "sounds/voice/accordion"
+					},
+					{
+						"code": "trumpet",
+						"sound": "sounds/voice/trumpet"
+					},
+					{
+						"code": "sax",
+						"sound": "sounds/voice/sax"
+					},
+					{
+						"code": "tuba",
+						"sound": "sounds/voice/tuba"
+					}
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice",
+				"colbreak": true,
+				"useDropDown": true,
+				"variants": [
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "ears",
+				"type": "shape",
+				"variants": [
+					{
+						"code": "omittedears",
+						"shape": { "base": "aldraces:entity/humanoid/ears/goblin_earsomitted" }
+					},
+					{
+						"code": "selatedears",
+						"shape": { "base": "aldraces:entity/humanoid/ears/goblin_earselated" }
+					}
+				]
+			},
+			{
+				"code": "hairbase",
+				"type": "shape",
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-base/{code}" },
+				"variants": [
+					{ "code": "afro" },
+					{ "code": "bald" },
+					{ "code": "balding" },
+					{ "code": "bowlcut" },
+					{ "code": "boxbraids" },
+					{ "code": "combed" },
+					{ "code": "dreadlocks" },
+					{ "code": "dreadlocksdense" },
+					{ "code": "indigenousbalding" },
+					{ "code": "iroquois" },
+					{ "code": "kniaz" },
+					{ "code": "layered" },
+					{ "code": "longflowing" },
+					{ "code": "longcurls" },
+					{ "code": "longwithstrands" },
+					{ "code": "mediumcurls" },
+					{ "code": "mediumlength-bangs" },
+					{ "code": "messy" },
+					{ "code": "messy2" },
+					{ "code": "classic" },
+					{ "code": "rows" },
+					{ "code": "rowsdense" },
+					{ "code": "short" },
+					{ "code": "shortcurls" },
+					{ "code": "shortcurls2" },
+					{ "code": "short-parted" },
+					{ "code": "shortspiky" },
+					{ "code": "short-trimmed" },
+					{ "code": "tonsure" }
+				]
+			},
+			{
+				"code": "facialexpression",
+				"type": "shape",
+				"variants": [
+					{
+						"code": "angry",
+						"shape": { "base": "aldraces:entity/humanoid/fase/goblin/goblin_angry" }
+					},
+					{
+						"code": "grin",
+						"shape": { "base": "aldraces:entity/humanoid/fase/goblin/goblin_grin" }
+					},
+					{
+						"code": "neutral",
+						"shape": { "base": "aldraces:entity/humanoid/fase/goblin/goblin_neutral" }
+					},
+					{
+						"code": "serious",
+						"shape": { "base": "aldraces:entity/humanoid/fase/goblin/goblin_serious" }
+					},
+					{
+						"code": "upset",
+						"shape": { "base": "aldraces:entity/humanoid/fase/goblin/goblin_upset" }
+					}
+				]
+			},
+			{
+				"code": "haircolor",
+				"type": "texture",
+				"textureTarget": "hair",
+				"targetSkinParts": [ "hairextra", "hairbase", "mustache", "beard" ],
+				"textureTemplate": "game:entity/humanoid/seraphskinparts/hair/{code}",
+				"variants": [
+					{ "code": "slategray" },
+					{ "code": "eerieblack" },
+					{ "code": "seagreen" },
+					{ "code": "steelblue" },
+					{ "code": "queenblue" },
+					{ "code": "indigodye" }
+				]
+			}
+		]
+	}
+}
