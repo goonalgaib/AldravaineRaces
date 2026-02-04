@@ -13,18 +13,18 @@ namespace AldravaineRaces.src.Patches
         [HarmonyPrefix]
         public static bool Gear_Has_Heat_Resistant(ItemSlot slot, IPlayer player)
         {
-            Console.WriteLine("Checking for heat resistant gloves...");
-            Console.WriteLine($"Slot Empty: {slot.Empty}, Player: {player?.PlayerName}, GameMode: {player?.WorldData.CurrentGameMode}");
+            System.Diagnostics.Debug.WriteLine("Checking for heat resistant gloves...");
+            System.Diagnostics.Debug.WriteLine($"Slot Empty: {slot.Empty}, Player: {player?.PlayerName}, GameMode: {player?.WorldData.CurrentGameMode}");
             if (slot.Empty || player == null || player.WorldData.CurrentGameMode == EnumGameMode.Creative) return false;
 
-            Console.WriteLine("Player has gloves equipped, checking for heat resistance...");
-            Console.WriteLine($"Player Entity: {player.Entity}");
+            System.Diagnostics.Debug.WriteLine("Player has gloves equipped, checking for heat resistance...");
+            System.Diagnostics.Debug.WriteLine($"Player Entity: {player.Entity}");
             if (player.Entity?
                     .GetBehavior<EntityBehaviorPlayerInventory>() is not { Inventory: not null } playerInventory)
                 return true;
             foreach (var itemSlot in playerInventory.Inventory)
             {
-                Console.WriteLine($"Checking slot: {itemSlot.SlotId}, BackgroundIcon: {itemSlot.BackgroundIcon}, Empty: {itemSlot.Empty}");
+                System.Diagnostics.Debug.WriteLine($"Checking slot: {itemSlot.SlotId}, BackgroundIcon: {itemSlot.BackgroundIcon}, Empty: {itemSlot.Empty}");
                 if (itemSlot.BackgroundIcon != "gloves")
                 {
                     continue;
