@@ -9,7 +9,7 @@
                 "build",
                 "-c",
                 "Debug",
-                "${workspaceFolder}/GloomeClasses/GloomeClasses.csproj"
+                "${workspaceFolder}/AldravaineRaces/AldravaineRaces.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
