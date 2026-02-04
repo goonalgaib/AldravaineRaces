@@ -101,6 +101,8 @@ namespace AldravaineRaces.src {
             harmony.PatchCategory(StaticTranslocatorPatchesCategory);
             harmony.PatchCategory(DragonskinPatchCategory);
             Logger.VerboseDebug("Finished patching for Trait purposes.");
+            harmony.PatchAllUncategorized();
+            Logger.VerboseDebug("Harmony has finished all Patches!");
         }
 
         private static void HarmonyUnpatch() {
