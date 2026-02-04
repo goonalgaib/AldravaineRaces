@@ -9,7 +9,8 @@
 			"greenthumb",
 			"frugal",
 			"mineraldefficient",
-			"claustrophobicgloo"
+			"claustrophobicgloo",
+			"GemCutter"
 		],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-straw-hat" },

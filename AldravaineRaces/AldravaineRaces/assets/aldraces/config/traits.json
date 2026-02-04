@@ -359,5 +359,10 @@
 		"attributes": {
 			"rustyGearDropRate": -0.5
 		}
+	},
+	{
+		"code": "GemCutter",
+		"type": "positive",
+		"attributes": {}
 	}
 ]
