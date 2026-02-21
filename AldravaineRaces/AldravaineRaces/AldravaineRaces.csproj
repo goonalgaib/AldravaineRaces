@@ -51,10 +51,6 @@
 		  <HintPath>$(VINTAGE_STORY)\Lib\PlayerModelLib.dll</HintPath>
 		  <Private>False</Private>
 	  </Reference>
-	  <Reference Include="EternalStorm">
-		  <HintPath>$(VINTAGE_STORY)\Lib\EternalStorm.dll</HintPath>
-		  <Private>False</Private>
-	  </Reference>
     <Reference Include="Microsoft.Data.Sqlite">
       <HintPath>$(VINTAGE_STORY)\Lib\Microsoft.Data.Sqlite.dll</HintPath>
       <Private>False</Private>
