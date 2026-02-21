@@ -40,9 +40,21 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="cairo-sharp">
-      <HintPath>$(VINTAGE_STORY\Lib\cairo-sharp.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)\Lib\cairo-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+	  <Reference Include="canjewelry">
+		  <HintPath>$(VINTAGE_STORY)\Lib\canjewelry.dll</HintPath>
+		  <Private>False</Private>
+	  </Reference>
+	  <Reference Include="PlayerModelLib">
+		  <HintPath>$(VINTAGE_STORY)\Lib\PlayerModelLib.dll</HintPath>
+		  <Private>False</Private>
+	  </Reference>
+	  <Reference Include="EternalStorm">
+		  <HintPath>$(VINTAGE_STORY)\Lib\EternalStorm.dll</HintPath>
+		  <Private>False</Private>
+	  </Reference>
     <Reference Include="Microsoft.Data.Sqlite">
       <HintPath>$(VINTAGE_STORY)\Lib\Microsoft.Data.Sqlite.dll</HintPath>
       <Private>False</Private>
